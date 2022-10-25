@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(0, 255, 255), rgb(134, 134, 237), rgb(0, 255, 255));
+   
+    
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom, rgb(134, 134, 237), rgb(0, 255, 255)); 
+   
+}
+
+.content h1 {
+    color: whitesmoke;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin: 1rem;
+
+}
+
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+
+    }
+    .content h1 {
+        margin: 3.5rem;
+    
+    }
+
+  }
+
+
